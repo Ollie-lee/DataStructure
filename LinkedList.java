@@ -2,8 +2,8 @@ package com.imooc.leo;
 
 public class LinkedList<E> {
 	private class Node{
-		private E e;
-		private Node next;
+		public E e;
+		public Node next;
 		
 		public Node(E e, Node next) {
 			this.e = e;
